@@ -1,0 +1,2 @@
+console.log("heloo") //So the program restarts every time you save using node mon package like hot reload type
+//If you want to install some package globally which can be used by whole application or whole pc in terminal use npm install -g nodemon

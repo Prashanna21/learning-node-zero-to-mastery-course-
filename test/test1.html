@@ -1,0 +1,46 @@
+<html>
+    <head>
+        <title>Donno's Calculator</title>
+    </head>
+    <body >
+        <input type="number" value="" id="inputNumber">
+        <br>
+        <input type="number" value="" id="InputNumber">
+        <br>
+
+        <button id="calculate" onclick="calculate()">Calculate</button>
+
+    </body>
+</html>
+
+<script>
+
+//input
+    
+
+    function calculate() {
+        let a = Number(document.getElementById("inputNumber").value);
+        let b = Number(document.getElementById("InputNumber").value);
+
+
+            word = " of " + a + " and "+ b +" is "
+    //add
+    var add = a + b;
+    var Aans = "Addition" + word + add
+    console.log(Aans)
+    //sub
+    var sub = a - b;
+    var Sans = "Sub" + word + sub
+    console.log(Sans)
+    //divide
+    var div = a / b;
+    var Dans = "Divide" + word + div
+    console.log(Dans)
+    //multi
+    var multi = a * b;
+    var Mans = "Multiple" + word + multi
+    console.log(Mans)
+
+    }
+
+</script>
