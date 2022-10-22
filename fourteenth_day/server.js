@@ -14,7 +14,7 @@ app.set('views', path.join(__dirname, "views"))
 
 
 app.use('/sus', susMessages)
-app.use('/site', express.static(path.join(__dirname, "public")))
+app.use('/site', express.static(path.join(__dirname, "public"))) //make path relative using it
 
 app.get('/', (req, res) => {
     res.render('index', {
