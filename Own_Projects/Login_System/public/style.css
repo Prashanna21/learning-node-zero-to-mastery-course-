@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Quicksand";
+    font-size: 2.5rem;
+}
+
+:root{
+    font-size: 62.5%;
+}
+
+html, body{
+    
+    width: 100%;
+    height: 100%;
+}
+
+.center-center{
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+}
+
+
+.main-div{
+    background-color: lightblue;
+    height: 100%;
+}
+
+.heading{
+    font-size: 4rem;
+}
+.main-div-inner{
+    flex-direction: column;
+    gap: 1.8rem;
+    padding: 2rem;
+    border: 0.2rem solid white;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    border-radius: 1rem;
+}
+
+.input-div{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.input-password-div{
+    padding-left: 1.1rem;
+    position: relative;
+
+}
+
+.buttons-div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+.login-btn{
+   margin-bottom: 1.5rem; 
+}
+
+input{
+    padding-right: 0.5rem;
+}
+
+button{
+    cursor: pointer;
+    padding: 0.5rem 0.8rem;
+}
+
+.eye-slash-icon{
+    position: absolute;
+    top: 0.75rem;
+    right: 1rem;
+    font-size: 2rem;
+}

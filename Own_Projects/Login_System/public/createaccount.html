@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/0a33f81977.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="center-center main-div">
+        <div class="main-div-inner center-center">
+            <h1 class="heading">
+                Create New Account
+            </h1>
+
+            <div class="input-div">
+                <div  class="input-username-div">
+                    UserName: <input id="input-username" type="text" placeholder="Enter Your UserName" required>
+                </div>
+
+                <div  class="input-password-div">
+                    Password: <input id="input-password" type="password" placeholder="Enter Your Password" required>
+                    <i id="hide-unhide-btn" data-state="unhide" class="fa-solid fa-eye-slash eye-slash-icon"></i>
+                </div>
+            </div>
+            <div class="buttons-div">
+                <button id="create-new-btn" type="submit">Create A New Account</button>
+                
+                <h1>OR</h1>
+                <a href="./index.html"><button class="login-btn" type="submit">Login</button></a>
+           
+                
+            
+            </div>
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
